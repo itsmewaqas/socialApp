@@ -1,0 +1,2459 @@
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/Montserrat-Black.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat-Light.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat-Regular";
+  background-color: #fff;
+  color: #000;
+  margin: 0px;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 15px 0px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: none;
+  font-family: "Montserrat-Regular";
+  color: #000;
+  display: block;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0px;
+  font-family: "Montserrat-Light";
+  display: block;
+  letter-spacing: 1px;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+/*clearfix css*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/*clearfix css end*/
+
+// login css start
+.loginMain {
+  background-color: #fff;
+  display: block;
+  width: 100%;
+}
+
+.loginHeader {
+  background-color: #fff;
+  display: block;
+  box-shadow: 0 4px 2px -2px #dbdbdb;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.loginHeader ul {
+  float: right;
+  list-style: none;
+  margin: 0px;
+  padding: 5px 15px;
+}
+
+.loginHeader ul li {
+  display: block;
+  text-align: center;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginHeader ul li a {
+  display: block;
+  padding: 15px 10px;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+.loginLogo {
+  float: left;
+  padding: 5px 15px;
+}
+
+.loginContainer {
+  display: block;
+  padding: 15px 0px;
+}
+
+.loginBannerImg {
+  max-width: 100%;
+  margin: 15px auto;
+  display: block;
+}
+
+.loginPara {
+  padding: 200px 0px 15px 50px;
+  box-sizing: border-box;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat-Regular";
+  display: block;
+}
+
+.storeBtnMain {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.storeBtnMain a {
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.storeBtnMain a img {
+  max-width: 80%;
+}
+
+.loginFooter {
+  display: block;
+  border-top: #a5a5a5 solid 1px;
+  padding: 15px 0px;
+}
+
+.loginFooter h2 {
+  font-size: 30px;
+  line-height: 34px;
+  text-align: left;
+  padding: 10px 0px;
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+}
+
+.loginFooter h3 {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  padding: 10px 0px;
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+}
+
+.loginFooter p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: "Montserrat-Light";
+  padding: 15px 0px;
+  color: #797979;
+}
+
+.fList1 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+}
+
+.fList1 li {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  display: block;
+}
+
+.fList1 li a {
+  font-family: "Montserrat-SemiBold";
+  padding: 5px 0px;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  color: #333;
+}
+
+.fList1 li:hover a {
+  color: #816499;
+}
+
+.fList2 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+}
+
+.fList2 li {
+  margin: 0px 5px 5px 0px;
+  padding: 0px;
+  text-align: left;
+  display: block;
+  float: left;
+  border: #ccc solid 1px;
+  border-radius: 25px;
+}
+
+.fList2 li a {
+  font-family: "Montserrat-SemiBold";
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+  color: #333;
+}
+
+.fList2 li:hover a {
+  color: #816499;
+}
+
+.loginForm {
+  display: block;
+  padding: 0px 50px 15px;
+  width: 250px;
+}
+
+.loginFormLogo {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+.loginFormForgot {
+  float: right;
+  font-size: 12px;
+  padding: 5px 0px;
+  text-align: right;
+  font-family: "Montserrat-Light";
+  color: #666;
+}
+
+.loginPara2 {
+  font-size: 12px;
+  padding: 5px 0px;
+  text-align: center;
+  color: #666;
+  font-family: "Montserrat-Light";
+  display: block;
+}
+
+.socialBtn {
+  text-align: center;
+  padding: 10px 0px;
+  display: block;
+}
+
+.socialBtn a {
+  display: inline-block;
+  margin: 0px 15px;
+  color: #666 !important;
+}
+
+.error {
+  color: red;
+  display: block;
+  clear: both;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+
+.css-11a8kcb-MuiInputBase-root-MuiInput-root.Mui-error:after {
+  border-bottom-color: #949494 !important;
+}
+
+.css-t7bnno-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+  color: #949494 !important;
+}
+
+// login css start
+
+// header profile menu css start
+.headerMneuBtnMain {
+  position: relative;
+  float: right;
+}
+
+.headerMneuBtn {
+  margin: 10px 10px 0px 0px;
+  padding: 0px 5px;
+  display: block;
+  cursor: pointer;
+}
+
+.headerMneuBtnBox {
+  position: absolute;
+  right: 5px;
+  top: 50px;
+  background-color: #fff;
+  width: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 350px;
+  z-index: 9;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.headerMneuBtnBox ul {
+  margin: 0px;
+  padding: 7.5px 0px;
+  list-style: none;
+  display: block;
+}
+
+.headerMneuBtnBox ul li {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  display: block;
+}
+
+.headerMneuBtnBox ul li a {
+  margin: 0px;
+  padding: 10px 15px;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  font-family: "Montserrat-Regular";
+  cursor: pointer;
+}
+
+.headerMneuBtnBox ul li a svg {
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #000 !important;
+}
+
+.headerMneuBtnBox ul li:hover>a,
+.headerMneuBtnBox ul li:hover>a svg {
+  background-color: #f1f1f1;
+  color: #6906cb !important;
+}
+
+.menuProfile {
+  display: block;
+  cursor: pointer;
+  margin: 10px 10px 30px;
+}
+
+.menuProfile img {
+  float: left;
+  margin-right: 15px;
+  padding: 8px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #512774;
+  outline: #ebebeb solid 5px;
+  box-shadow: 0px 0px 5px #565656;
+}
+
+.menuProfile p {
+  display: inline-block;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 0px 0px;
+  text-align: left;
+  font-family: "Montserrat-SemiBold";
+}
+
+.menuProfile p span {
+  display: block;
+  color: #8d8d8d;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Montserrat-Light";
+  padding-top: 2px;
+}
+
+.headerMenuMain {
+  position: relative;
+  float: right;
+}
+
+.headerMenu {
+  float: right;
+  color: #a485bd;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 18px 15px 5px;
+  position: relative;
+}
+
+.headerMenu span {
+  background-color: #71409b;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1.5px 0px;
+  font-size: 11px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.headerMenuDetailBox {
+  position: absolute;
+  top: 52px;
+  right: 10px;
+  background-color: #fff;
+  width: 250px;
+  box-shadow: 0px 2px 6px 0px #dbdbdb;
+  -moz-box-shadow: 0px 2px 6px 0px #dbdbdb;
+  -webkit-box-shadow: 0px 2px 6px 0px #dbdbdb;
+}
+
+.headerMenuDetailBox h1 {
+  padding: 10px 10px;
+  font-family: "Montserrat-Light";
+  color: #5e5e5e;
+  box-shadow: none;
+  background-color: transparent;
+  margin: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  border-bottom: #e9edf5 solid 1px;
+  text-align: left;
+}
+
+.headerMenuDetailBox ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+}
+
+.headerMenuDetailBox ul li {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+  border-bottom: #ecf3f9 solid 1px;
+  overflow: auto;
+}
+
+.headerMenuDetailBox ul li img {
+  float: left;
+  margin-right: 15px;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #512774;
+  outline: #ebebeb solid 3px;
+  box-shadow: 0px 0px 5px #565656;
+}
+
+.headerMenuDetailBox ul li p {
+  display: inline;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Montserrat-Regular";
+  color: #000;
+}
+
+.headerMenuDetailBox ul li p span {
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: "Montserrat-Light";
+  color: #512774;
+}
+
+.fReqBtn {
+  float: left;
+  margin: 5px 5px 0px 0px;
+  padding: 2px 5px;
+  background-color: #512774;
+  color: #fff;
+  font-size: 10px;
+  line-height: 14px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.searchBlock {
+  float: left;
+  width: 30%;
+  border: #ccc solid 1px;
+  margin: 7px 5px 0px;
+  border-radius: 25px;
+  padding: 3px 15px;
+  position: relative;
+}
+
+.searchBlock i {
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  color: #ccc !important;
+}
+
+.searchBlockInput {
+  display: block;
+  width: 85%;
+  height: 25px;
+  border: none;
+  margin-left: 40px;
+}
+
+.searchBlockInput:focus {
+  outline: none !important;
+}
+
+// header profile menu css end
+ul.userMenu {
+  display: block;
+  list-style: none;
+  margin: 0px 20px;
+  padding: 30px 0px 0px;
+  border-top: #e0dede solid 1px;
+}
+
+ul.userMenu li {
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px 50px 0px 0px;
+  padding: 0px;
+  position: relative;
+}
+
+ul.userMenu li a {
+  display: block;
+  padding: 10px 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8D8F99;
+  font-family: "Montserrat-SemiBold";
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: #fff solid 4px;
+}
+
+ul.userMenu li:hover>a,
+ul.userMenu li>a.active {
+  color: #A014EB;
+  border-bottom: #A014EB solid 4px;
+}
+
+.dashboardContainer {
+  background-color: #ECEFF2;
+  margin-top: 50px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+}
+
+.dashHeader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 2px -2px #dbdbdb;
+  -moz-box-shadow: 0 4px 2px -2px #dbdbdb;
+  -webkit-box-shadow: 0 4px 2px -2px #dbdbdb;
+  height: 50px;
+  z-index: 99;
+
+  .logoArea {
+    width: 250px;
+    height: 50px;
+    float: left;
+    transition: all 0.4s;
+    background-color: #fff;
+  }
+
+  .logo {
+    float: left;
+  }
+}
+
+.dashFooter {
+  padding: 15px;
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff;
+  position: relative;
+  z-index: 88;
+
+  p {
+    text-align: left;
+    color: #512774;
+  }
+
+  p span {
+    font-family: "Montserrat-SemiBold";
+  }
+}
+
+.NewsfeedContanier {
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.FindpartnerContanier {
+  width: 100%;
+  display: block;
+  // padding-left:200px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.FindpartnerContanier h1 {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 30px 0px 15px 15px;
+}
+
+.findPartnerBox {
+  background-color: #fff;
+  display: block;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.findPartnerBox img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+.findPartnerBox h2 {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0px;
+  display: block;
+  color: #000;
+}
+
+.findPartnerBox p {
+  display: block;
+}
+
+.findPartnerBox p span {
+  float: left;
+  width: 80px;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px 0px 0px 0px;
+  color: #000;
+  font-family: "Montserrat-SemiBold";
+}
+
+.findPartnerBox p span i {
+  display: block;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a7a5a5;
+  padding: 5px 0px 0px 0px;
+  font-family: "Montserrat-Light";
+}
+
+.findPartnerBox Button {
+  float: right;
+  margin-top: 15px;
+}
+
+.FindpartnerContanierSearchBlock {
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  display: block;
+  height: 100vw;
+}
+
+.whiteTopWrapper {
+  background-color: #fff;
+  display: block;
+  position: relative;
+  box-shadow: 0 4px 2px -2px #dbdbdb;
+  -moz-box-shadow: 0 4px 2px -2px #dbdbdb;
+  -webkit-box-shadow: 0 4px 2px -2px #dbdbdb;
+}
+
+.coverImageContainer {
+  max-width: 100%;
+  padding: 0px 20px 30px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.coverImageProgressBardiv {
+  width: 96.5%;
+  margin-right: 100px;
+  height: 370px;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.coverImage {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  background-image: url('../images/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.profileDpBox {
+  display: block;
+  margin: -85px auto 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 200px;
+  position: relative;
+}
+
+.profileDpBox img {
+  padding: 10px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-color: #512774;
+  outline: #ebebeb solid 6px;
+  box-shadow: 0px 0px 5px #565656;
+}
+
+.profileImageProgressBardiv {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+}
+
+.progressBar {
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #ebebeb;
+}
+
+.progress {
+  height: 100%;
+  background-color: #512774;
+}
+
+.profileDpBox p {
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0px;
+  font-family: "Montserrat-Regular";
+}
+
+// dp upload button start
+.dpUploadBtn {
+  position: absolute;
+  right: 32px;
+  top: -8px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.dpButton {
+  border: none;
+  color: gray;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #4c4c4c;
+  -webkit-box-shadow: 0px 0px 5px #4c4c4c;
+  -moz-box-shadow: 0px 0px 5px #4c4c4c;
+}
+
+.dpUploadBtn input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+// dp upload button end
+
+// cover upload btn start
+.uploadCoverPhoto {
+  position: relative;
+  overflow: hidden;
+  float: right;
+  margin: -25px 30px 0px 0px;
+}
+
+.coverBtn {
+  border: 2px solid #666;
+  color: gray;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "Montserrat-Regular";
+}
+
+.coverBtn svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.uploadCoverPhoto input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+// cover upload btn end
+
+.pictureContainer {
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  display: block;
+  position: relative;
+  z-index: 9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.pictureContainer h3 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  font-family: "Montserrat-Regular";
+  text-align: left;
+  padding: 0px 0px 15px;
+}
+
+.pictureContainer h3 a {
+  float: right;
+  text-align: right;
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pictureBox {
+  float: left;
+  margin: 0px 10px 10px 0px;
+  cursor: pointer;
+}
+
+.pictureBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.pictureBox p {
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Montserrat-SemiBold";
+}
+
+.pictureBox p span {
+  color: #666;
+  font-size: 12px;
+  display: block;
+  font-family: "Montserrat-Regular";
+}
+
+.privatePostContainer {
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  min-width: 500px;
+  display: block;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+  border-radius: 5px;
+}
+
+.privatePost {
+  display: block;
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+
+.privatePost img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #512774;
+  outline: #ebebeb solid 3px;
+  box-shadow: 0px 0px 5px #565656;
+  position: relative;
+  left: 0px;
+  top: 10px;
+}
+
+.privatePost h4 {
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.privatePostMenu {
+  display: block;
+  border: none;
+  color: #666;
+  clear: both;
+  min-width: 30px;
+  font-family: "Montserrat-Regular";
+  position: relative;
+  left: 70px;
+  top: -10px;
+  z-index: 9;
+}
+
+.privatePostMenu:focus {
+  outline: none !important;
+}
+
+.privatePostTextBox {
+  width: 96%;
+  margin: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: #dddddd;
+  padding: 0px 10px;
+  border: none;
+  height: 40px;
+  box-shadow: 0 4px 2px -2px #d1d1d1;
+}
+
+.privatePostTextBox:focus {
+  outline: none !important;
+}
+
+.privatePostPic {
+  float: left;
+  position: relative;
+  margin: 0px 2.5px 10px 15px;
+  overflow: hidden;
+}
+
+.privatePostPicBtn {
+  color: gray;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+.privatePostPic input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.aboutLeft {
+  background-color: #fff;
+  border-radius: 8px 0px 0px 8px;
+  display: block;
+  padding: 30px 0px 15px;
+  margin: 15px 0px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.aboutLeft p {
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 15px;
+  font-family: "Montserrat-SemiBold";
+  box-sizing: border-box;
+}
+
+.aboutRight {
+  background-color: #fff;
+  border-radius: 0px 8px 8px 0px;
+  display: block;
+  padding: 30px 0px 15px;
+  margin: 15px 0px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.aboutRight p {
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 15px;
+  font-family: "Montserrat-SemiBold";
+  box-sizing: border-box;
+}
+
+.aboutRightLink {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border: #2a2a3c solid 1px;
+  border-radius: 5px;
+  padding: 2.5px 8px;
+  color: #2a2a3c;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.aboutRightLink svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.aboutRight .css-zow5z4-MuiGrid-root>.MuiGrid-item {
+  padding-top: 15.6px !important;
+}
+
+.friendsContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  display: block;
+  padding: 15px;
+  margin: 15px 0px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.friendsContainer h4 {
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 15px 15px;
+  font-family: "Montserrat-SemiBold";
+  box-sizing: border-box;
+}
+
+.friendsContainer h4 span {
+  color: #727272;
+  display: block;
+  padding-top: 5px;
+}
+
+.friendsBox {
+  background-color: #fff;
+  border: #c3c3c3 solid 1px;
+  display: block;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.friendsBox img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 5px 10px 5px 0px;
+}
+
+.friendsBox h2 {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0px;
+  font-family: "Montserrat-Regular" !important;
+  display: block;
+  color: #000;
+}
+
+.friendsBox h2 span {
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 3px;
+  display: block;
+  font-family: "Montserrat-Light" !important;
+  color: #8a8a8a;
+}
+
+.friendsBox a {
+  position: relative;
+  color: #666;
+  float: right;
+  margin: -40px 0px 0px 0px;
+}
+
+.friendsBoxMenu {
+  position: absolute;
+  right: 20px;
+  bottom: -50px;
+  width: 100px;
+  height: 80px;
+  background-color: #fff;
+  border: #ccc solid 1px;
+  z-index: 10;
+}
+
+.friendsBoxMenu ul {
+  margin: 0px;
+  padding: 5px;
+  list-style: none;
+  display: block;
+}
+
+.friendsBoxMenu ul li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.friendsBoxMenu ul li a {
+  margin: 0px;
+  padding: 5px;
+  color: #666;
+  display: block;
+  float: left;
+  clear: both;
+  text-align: left;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.emojiLink {
+  float: left;
+  color: gray;
+  margin: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.albumBox {
+  float: left;
+  margin: 0px 12px 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.albumBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.albumBox p {
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Montserrat-SemiBold";
+}
+
+.albumBox p span {
+  color: #666;
+  font-size: 12px;
+  display: block;
+  font-family: "Montserrat-Regular";
+}
+
+.settingLeftBlock {
+  background-color: #fff;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  margin: 30px 0px 15px;
+  min-height: 500px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.settingLeftBlock h3 {
+  background-color: #F6F6F6;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+}
+
+.settingLeftBlock ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+}
+
+.settingLeftBlock ul li {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  display: block;
+  border-bottom: #ddd solid 1px;
+}
+
+.settingLeftBlock ul li a {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px;
+  display: block;
+  font-family: "Montserrat-SemiBold";
+  color: #5F5F60;
+  box-sizing: border-box;
+}
+
+.settingLeftBlock ul li:hover>a,
+.settingLeftBlock ul li>a.active {
+  color: #000;
+}
+
+.settingRightBlock {
+  background-color: #fff;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  margin: 30px 0px 15px;
+  position: relative;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+}
+
+.settingRightBlock h4 {
+  background-color: #F6F6F6;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+}
+
+.settingRightBlock p {
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Montserrat-Light";
+  color: #333;
+}
+
+ul.privacyList {
+  display: block;
+  margin: 5px 5px;
+  padding: 0px;
+  list-style: none;
+  border: #ddd solid 1px;
+}
+
+ul.privacyList li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: #ddd solid 1px;
+  text-align: left;
+  position: relative;
+}
+
+ul.privacyList li:last-child {
+  border-bottom: none;
+}
+
+ul.privacyList li a {
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  font-family: "Montserrat-Regular";
+  cursor: pointer;
+}
+
+ul.privacyList li a svg {
+  cursor: pointer;
+  font-style: normal;
+  float: right;
+  margin: -8px -10px 0px 0px;
+}
+
+ul.privacyList li ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 35px;
+  width: 100px;
+  height: 80px;
+  background-color: #fff;
+  border: #ccc solid 1px;
+  z-index: 9;
+}
+
+ul.privacyList li ul li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  text-align: left;
+}
+
+ul.privacyList li ul li a {
+  padding: 5px;
+  color: #666;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.addFriendBox {
+  background-color: #fff;
+  display: block;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+  border: #ddd solid 1px;
+}
+
+.addFriendBox img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 5px 10px 10px 0px;
+}
+
+.addFriendBox h2 {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 5px 0px;
+  display: block;
+  color: #000;
+}
+
+.addFriendBox Button {
+  float: left;
+  margin: 5px 10px 0px 0px;
+}
+
+.publicPostContainer {
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  display: block;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9;
+}
+
+.publicPostTop {
+  display: block;
+  padding: 15px 15px 0px;
+}
+
+.publicPostTop img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -10px;
+  left: 0;
+}
+
+.publicPostTop h4 {
+  font-family: "Montserrat-Regular";
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  display: inline-block;
+  padding: 0px 0px 0px;
+}
+
+.publicPostTop h4 span {
+  font-family: "Montserrat-Light";
+  color: #999797;
+  font-size: 12px;
+  padding-top: 5px;
+  display: block;
+}
+
+.publicPostMiddle {
+  display: block;
+  padding: 15px 0px 15px 15px;
+  box-sizing: border-box;
+}
+
+.publicPostMiddle h5 {
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0px 0px 15px;
+}
+
+.publicPostMiddle .imgStyle1 {
+  margin: 5px 10px 5px 0px;
+  display: block;
+  width: 98%;
+  height: 400px;
+  cursor: pointer;
+  background-color: #000;
+  object-fit: contain;
+}
+
+.publicPostMiddle .imgStyle2 {
+  margin: 5px 10px 5px 0px;
+  float: left;
+  width: 48.3%;
+  cursor: pointer;
+}
+
+.publicPostMiddle .imgStyle3 {
+  margin: 5px 10px 5px 0px;
+  float: left;
+  width: 23.3%;
+  cursor: pointer;
+}
+
+.publicPostStatusRow {
+  display: block;
+  cursor: pointer;
+}
+
+.publicPostStatusRow .likeBox {
+  float: left;
+  padding: 0px 5px 0px 15px;
+}
+
+.publicPostStatusRow .likeBox svg {
+  vertical-align: middle;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.publicPostStatusRow .likeBox a {
+  vertical-align: middle;
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.publicPostStatusRow .commentLink {
+  float: left;
+  padding: 0px 5px;
+}
+
+.publicPostStatusRow .commentLink svg {
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #acacac;
+}
+
+.publicPostStatusRow .commentLink p {
+  vertical-align: middle;
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.publicPostCommentRow {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.publicPostCommentRow img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  float: left;
+}
+
+.publicPostCommentRow .textBox {
+  width: 92%;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 0px 10px;
+  height: 40px;
+  border: #E1E5EE solid 1px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  float: left;
+}
+
+.publicPostCommentRow .textBox .txtField {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  border: none;
+}
+
+.publicPostCommentRow .textBox .txtField:focus {
+  outline: none !important;
+}
+
+.publicPostCommentRow .textBox .emojiesLink {
+  float: right;
+}
+
+.publicPostCommentRow .textBox .emojiesLink svg {
+  vertical-align: middle;
+  margin-left: 10px;
+  padding-top: 8px;
+  color: #9e9e9e;
+}
+
+.publicPostPic {
+  float: right;
+  position: relative;
+  margin: 6px 0px 0px;
+  overflow: hidden;
+}
+
+.publicPostPicBtn {
+  color: #9e9e9e;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+.publicPostPic input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.publicComment {
+  display: block;
+  padding: 15px;
+  border: #ddd solid 1px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.publicComment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+
+.publicComment h6 {
+  font-family: "Montserrat-Regular";
+  color: #000;
+  font-size: 12px;
+  line-height: 14px;
+  display: inline-block;
+  padding: 0px;
+}
+
+.publicComment h6 span {
+  font-family: "Montserrat-Light";
+  color: #999797;
+  font-size: 11px;
+  padding-top: 5px;
+  display: block;
+}
+
+.publicComment p {
+  font-family: "Montserrat-Light";
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  padding: 0px 0px 0px 50px;
+}
+
+.publicReport {
+  float: right;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.publicReportMenu {
+  background-color: #fff;
+  width: 75px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+  color: #000;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Montserrat-Regular";
+  position: absolute;
+  border-radius: 5px;
+  right: 25px;
+  top: 50px;
+  z-index: 99;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #ddd;
+}
+
+.boxShadowNone {
+  box-shadow: none !important;
+  padding: 0px !important;
+}
+
+.bannerChatArea {
+  text-align: center;
+}
+
+.NewsfeedBanner {
+  padding: 15px;
+  box-sizing: border-box;
+  width: 15vw;
+  right: 0px;
+  top: 50px;
+  position: fixed;
+}
+
+// chatbox style start
+.chatBoxPanel {
+  background: #f0f3fd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f0f3fd 1%, #ebecf5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f0f3fd 1%, #ebecf5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f0f3fd 1%, #ebecf5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f3fd', endColorstr='#ebecf5', GradientType=0);
+  /* IE6-9 */
+  width: 15vw;
+  padding: 15px 15px 50px 15px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  z-index: 9;
+  height: 50vh;
+}
+
+.chatBoxContent {
+  display: block;
+}
+
+.chatBoxContent h3 {
+  color: #787676;
+  font-size: 14px;
+  color: #333;
+  padding: 0px 0px 5px;
+  line-height: 20px;
+  font-family: "Montserrat-Regular" !important;
+  font-weight: normal;
+}
+
+.chatBoxContent ul {
+  list-style: none;
+  display: block;
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+.chatBoxContent ul li {
+  text-align: left;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.chatBoxContent ul li a {
+  font-family: "Montserrat-Regular";
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  padding: 10px 5px;
+}
+
+.chatBoxContent ul li:hover a {
+  background-color: #f8f8f8;
+}
+
+.chatBoxContent ul li a img {
+  vertical-align: middle;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.chatBoxContent ul li a span {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  z-index: 9;
+}
+
+// chatbox style end
+
+.chatBoxMain {
+  position: fixed;
+  right: 210px;
+  bottom: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  z-index: 10;
+}
+
+.chatBox {
+  margin-left: 15px;
+  background-color: #fff;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+  -moz-box-shadow: 0px 0px 5px #dbdbdb;
+  -webkit-box-shadow: 0px 0px 5px #dbdbdb;
+  position: relative;
+}
+
+.chatClose {
+  float: right;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.chatBoxTitle {
+  font-size: 12px;
+  line-height: 14px;
+  border-bottom: #E1E5EE solid 1px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 10px 5px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: "Montserrat-Regular";
+}
+
+.chatBoxTitle img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px #000;
+  -moz-box-shadow: 0px 0px 4px #000;
+  -webkit-box-shadow: 0px 0px 4px #000;
+}
+
+.chatBoxField {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: block;
+  background-color: #fff;
+  border-top: #E1E5EE solid 1px;
+  flex-direction: row;
+  align-items: stretch;
+  border-radius: 0px 0px 5px 5px;
+  left: 0px;
+}
+
+.chatInput {
+  width: 80%;
+  border: none;
+  resize: none;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.chatInput:focus {
+  outline: none;
+}
+
+.chatEmoji {
+  padding: 0px 5px;
+  position: relative;
+  top: -4px;
+  cursor: pointer;
+}
+
+.chatBox ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.chatBox ul li {
+  display: block;
+  margin: 5px 5px 10px;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: left;
+  background-color: #f0f7ff;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Montserrat-Regular";
+  max-width: 90%;
+}
+
+.picViewBox {
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.picViewBox img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background-color: #000;
+  margin: 0px auto;
+  display: block;
+}
+
+.picBtnMain {
+  text-align: center;
+  width: 100%;
+}
+
+.picBtn {
+  display: inline-block;
+  margin: 5px;
+  border: none;
+  min-width: 100px;
+  font-family: "Montserrat-Light";
+  font-size: 12px;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.picBtn:nth-child(1) {
+  background-color: #2e7d32;
+}
+
+.picBtn:nth-child(2) {
+  background-color: #1565c0;
+}
+
+.picBtn:nth-child(3) {
+  background-color: #f33a3a;
+}
+
+.createAlbumBtn {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #6d05d7;
+  padding: 5px 10px;
+  margin: -5px 20px 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Montserrat-Light";
+}
+
+.createAlbumBox {
+  display: block;
+  padding: 5px 0px;
+  box-sizing: border-box;
+}
+
+.createAlbumBox h5 {
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.createAlbumBox .filesUpload {
+  margin: 15px 0px;
+  float: left;
+}
+
+.imagePreviewBox {
+  display: block;
+  margin: 15px 0px;
+  clear: both;
+}
+
+.imagePreviewBox div {
+  position: relative;
+  float: left;
+  margin: 10px 10px 10px 0px;
+}
+
+.imagePreviewBox div img {
+  display: block;
+  width: 95px;
+  height: 95px;
+  border: #cecece solid 1px;
+}
+
+.imagePreviewBox div a {
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  cursor: pointer;
+  padding: 3.5px 7px;
+  border-radius: 25px;
+  background-color: #e60505;
+  color: #fff;
+  font-size: 12px;
+  border: #e60505 solid 1px;
+}
+
+.modalImgBoxleft {
+  position: relative;
+  display: block;
+
+  img {
+    width: 100%;
+    max-height: 400px;
+    background-color: #000;
+    object-fit: contain;
+  }
+
+  .leftBtn {
+    position: absolute;
+    left: 0px;
+    top: 185px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    svg {
+      color: #fff;
+    }
+  }
+
+  .rightBtn {
+    position: absolute;
+    right: 0px;
+    top: 185px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    svg {
+      color: #fff;
+    }
+  }
+}
+
+.modalImgBoxRight {
+  position: relative;
+  display: block;
+  padding: 0px 0px 15px 15px;
+  box-sizing: border-box;
+
+  .canBtn {
+    margin-top: 30px;
+    display: block;
+  }
+}
+
+.modalImgBoxRightTop {
+  display: block;
+  padding: 15px 15px 0px 0px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #cfcfcf;
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -15px;
+    left: 0;
+  }
+
+  h4 {
+    font-family: "Montserrat-Regular";
+    color: #000;
+    font-size: 14px;
+    line-height: 10px;
+    display: inline-block;
+    padding: 0px 0px 0px;
+
+    span {
+      padding-top: 10px;
+      display: block;
+    }
+  }
+}
+
+.meLikes {
+  display: block;
+  padding: 0px 5px 5px 0px;
+
+  i {
+    margin-right: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+}
+
+.modalImgBoxRight ul {
+  list-style: none;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.modalImgBoxRight ul li {
+  list-style: none;
+  display: block;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0px 0px 10px;
+  margin: 0px;
+}
+
+.modalImgBoxRight ul li a {
+  cursor: pointer;
+}
+
+.modalImgBoxRight ul li img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.reportModalContent {
+  display: block;
+  position: relative;
+}
+
+.reportModalContent h2 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+  font-family: 'Montserrat-Bold';
+  border-bottom: #bbbbbb solid 1px;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.reportModalContent h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Montserrat-Bold';
+  color: #333;
+  padding: 15px 0px;
+}
+
+.reportModalContent h3 span {
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  font-family: 'Montserrat-Light';
+  color: #333;
+  padding-top: 5px;
+}
+
+.reportModalContent ul {
+  display: block;
+  list-style: none;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.reportModalContent ul li {
+  display: block;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.reportModalContent ul li a {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 0px;
+  font-family: 'Montserrat-Regular';
+  color: #333;
+  cursor: pointer;
+}
+
+.reportModalContent ul li a svg {
+  vertical-align: middle;
+  float: right;
+  color: #333;
+}
+
+.reportClose {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 99;
+}
+
+.reportClose svg {
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.reportback {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 99;
+}
+
+.reportback svg {
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.likesmodal {
+  width: 300px;
+  display: block;
+  position: relative;
+
+  h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat-Medium';
+    color: #333;
+    padding: 10px 10px;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: block;
+  }
+
+  ul li {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    display: block;
+
+    :hover {
+      background-color: #e5c5ff;
+      color: #000;
+    }
+  }
+
+  ul li a {
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    color: #333;
+    cursor: pointer;
+  }
+
+  ul li a img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .likeClose {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 99;
+
+    svg {
+      vertical-align: middle;
+      color: #ffffff;
+    }
+  }
+}
+
+
+.albumPostMenu {
+  display: block;
+  border: none;
+  color: #666;
+  clear: both;
+  min-width: 30px;
+  margin: 15px 0px 5px;
+  font-family: "Montserrat-Regular";
+  position: relative;
+  z-index: 9;
+}
+
+.albumPostMenu:focus {
+  outline: none !important;
+}
+
+.spinning {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //// this is responsive code normal css code add before this code //// */
+
+@media (min-width: 1300px) and (max-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 999px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 999px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 480px) {}
